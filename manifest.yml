@@ -1,6 +1,6 @@
 ---
 applications:
-- name: cf-egov
+- name: cf-egovboard
   memory: 512M
   random-route: true
   buildpack: egov_buildpack_v35
