@@ -1,0 +1,8 @@
+---
+applications:
+- name: cf-egov
+  memory: 512M
+  random-route: true
+  buildpack: egov_buildpack_v35
+  env:
+    JBP_CONFIG_COMPONENTS: '[containers: Tomcat]'
