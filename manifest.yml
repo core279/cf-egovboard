@@ -4,5 +4,6 @@ applications:
   memory: 512M
   random-route: true
   buildpack: egov_buildpack_v35
+  path: target/cf-egov-1.0.0.war
   env:
-    JBP_CONFIG_COMPONENTS: '[containers: Tomcat]'
+    JBP_CONFIG_COMPONENTS: '[containers: Tomcat]'   
